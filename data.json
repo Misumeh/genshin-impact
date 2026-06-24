@@ -1,0 +1,52 @@
+[
+  {
+    "id": "yaemiko-16x",
+    "name": "Yae Miko",
+    "resolution": "16x",
+    "description": "An elegant electro-themed 16x pack optimized for high FPS. Features sakura petal particles, deep purple UI elements, and a Kagura's Verity totem.",
+    "thumbnail": "https://img.youtube.com/vi/a_36qs7oCow/maxresdefault.jpg",
+    "videoEmbed": "https://www.youtube.com/embed/a_36qs7oCow",
+    "nsfw": false,
+    "links": {
+      "java18_ad": "https://direct-link.net/1439889/r6wIiZhz3ivm",
+      "java18_patreon": "https://www.patreon.com/posts/welcome-to-how-154973584",
+      "javaLatest_patreon": "https://www.patreon.com/posts/welcome-to-how-154973584",
+      "bedrock_ad": "https://direct-link.net/1439889/r6wIiZhz3ivm",
+      "bedrock_patreon": "https://www.patreon.com/posts/welcome-to-how-154973584",
+      "nsfw_link": "https://www.patreon.com/posts/welcome-to-how-154973584"
+    }
+  },
+  {
+    "id": "ganyu-32x",
+    "name": "Ganyu",
+    "resolution": "32x",
+    "description": "A serene, cryo-themed 32x texture pack. Features custom frost-tipped bows, elegant celestial UI borders, and a cool-toned color palette inspired by the Plenilune Gaze.",
+    "thumbnail": "https://img.youtube.com/vi/HitihOhzvsk/maxresdefault.jpg",
+    "videoEmbed": "https://www.youtube.com/embed/HitihOhzvsk",
+    "nsfw": false,
+    "links": {
+      "java18_ad": "https://link-center.net/1439889/WYQF4wKHNcaR",
+      "java18_patreon": "https://www.patreon.com/posts/welcome-to-how-154973584",
+      "javaLatest_patreon": "https://www.patreon.com/posts/welcome-to-how-154973584",
+      "bedrock_ad": "https://link-center.net/1439889/5KXnSvd1vr45",
+      "bedrock_patreon": "https://www.patreon.com/posts/welcome-to-how-154973584",
+      "nsfw_link": "https://www.patreon.com/posts/welcome-to-how-154973584"
+    }
+  },
+  {
+    "id": "hutao-32x",
+    "name": "Hu Tao",
+    "resolution": "32x",
+    "description": "A vibrant, pyro-themed 32x texture pack featuring crimson accents, ghostly particles, and Staff of Homa-inspired weapon replacements. Perfect for PvP.",
+    "thumbnail": "https://img.youtube.com/vi/f6GVO4TIHYc/maxresdefault.jpg",
+    "videoEmbed": "https://www.youtube.com/embed/f6GVO4TIHYc",
+    "nsfw": false,
+    "links": {
+      "java18_ad": "https://link-center.net/1439889/WYQF4wKHNcaR",
+      "java18_patreon": "https://www.patreon.com/posts/welcome-to-how-154973584",
+      "javaLatest_patreon": "https://www.patreon.com/posts/welcome-to-how-154973584",
+      "bedrock_ad": "https://link-center.net/1439889/5KXnSvd1vr45",
+      "bedrock_patreon": "https://www.patreon.com/posts/welcome-to-how-154973584"
+    }
+  }
+]

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Misumeh | Genshin Impact Minecraft Texture Packs</title>
+    <meta name="description" content="Download the best Genshin Impact texture packs for Minecraft Java and Bedrock. High FPS, PvP optimized, custom UI, and character-themed packs by Misumeh.">
+    <meta name="keywords" content="Genshin Impact Minecraft, Minecraft texture packs, Genshin UI Minecraft, Misumeh texture packs, Ganyu PvP pack, Hu Tao Minecraft, Anime texture packs">
+    <meta name="author" content="Misumeh">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#0f1423] text-[#ece5d3] min-h-screen font-sans antialiased">
+
+    <nav class="fixed w-full z-50 bg-[#0f1423]/90 backdrop-blur-md border-b border-[#d3bc8e]/20 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center relative">
+            <div class="font-serif font-bold text-2xl text-[#d3bc8e] tracking-widest">MISUMEH</div>
+            
+            <div class="hidden md:flex space-x-8 text-sm font-semibold tracking-wide">
+                <a href="#home" class="hover:text-[#d3bc8e] transition-colors">Home</a>
+                <a href="#packs" class="hover:text-[#d3bc8e] transition-colors">Texture Packs</a>
+                <a href="#faq" class="hover:text-[#d3bc8e] transition-colors">FAQ</a>
+                <a href="https://patreon.com/misumeh" target="_blank" class="text-[#d3bc8e] hover:text-white transition-colors flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M15.386.524c-4.764 0-8.64 3.876-8.64 8.64 0 4.75 3.876 8.613 8.64 8.613 4.75 0 8.614-3.864 8.614-8.613C24 4.4 20.136.524 15.386.524M.003 23.537h4.22V.524H.003v23.013z"/></svg>
+                    Patreon
+                </a>
+            </div>
+
+            <button id="mobileMenuBtn" class="md:hidden text-[#d3bc8e] hover:text-white focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path id="menuIcon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div id="mobileMenu" class="hidden md:hidden bg-[#0f1423]/95 backdrop-blur-md border-b border-[#d3bc8e]/20 absolute w-full left-0 top-full shadow-lg">
+            <div class="flex flex-col px-6 py-4 space-y-4 text-sm font-semibold tracking-wide">
+                <a href="#home" class="mobile-link hover:text-[#d3bc8e] transition-colors">Home</a>
+                <a href="#packs" class="mobile-link hover:text-[#d3bc8e] transition-colors">Texture Packs</a>
+                <a href="#faq" class="mobile-link hover:text-[#d3bc8e] transition-colors">FAQ</a>
+                <a href="https://patreon.com/misumeh" target="_blank" class="mobile-link text-[#d3bc8e] hover:text-white transition-colors flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M15.386.524c-4.764 0-8.64 3.876-8.64 8.64 0 4.75 3.876 8.613 8.64 8.613 4.75 0 8.614-3.864 8.614-8.613C24 4.4 20.136.524 15.386.524M.003 23.537h4.22V.524H.003v23.013z"/></svg>
+                    Patreon
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="relative pt-32 pb-20 px-6 min-h-[70vh] flex items-center justify-center text-center bg-cover bg-center bg-no-repeat" style="background-image: linear-gradient(to bottom, rgba(15, 20, 35, 0.4), rgba(15, 20, 35, 1)), url('https://images.wallpapersden.com/image/download/genshin-impact-2019_a2prbGyUmZqaraWkpJRmbmdlrWZlbWU.jpg');">
+        <div class="max-w-4xl mx-auto z-10">
+            <h2 class="text-[#d3bc8e] font-serif text-sm md:text-lg tracking-[0.3em] uppercase mb-4 drop-shadow-lg">Bringing Teyvat to the Overworld</h2>
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-6 drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)]">
+                Genshin Impact <br>
+                <span class="text-3xl md:text-5xl text-[#d3bc8e] font-normal tracking-wide">Minecraft Texture Packs</span>
+            </h1>
+            <p class="text-lg text-gray-200 mb-10 max-w-2xl mx-auto drop-shadow-md">High-quality, FPS-optimized, and fully custom UI resource packs for Java and Bedrock editions. Created by Misumeh.</p>
+            
+            <div class="max-w-2xl mx-auto relative group">
+                <input type="text" id="searchInput" placeholder="Search by character or resolution..." 
+                    class="w-full bg-[#0f1423]/80 border-2 border-[#d3bc8e]/50 text-white rounded-full py-4 px-6 pl-14 focus:outline-none focus:border-[#d3bc8e] transition-all backdrop-blur-md shadow-lg">
+                <svg class="absolute left-5 top-1/2 transform -translate-y-1/2 w-6 h-6 text-[#d3bc8e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+        </div>
+    </header>
+
+    <main id="packs" class="max-w-7xl mx-auto px-6 py-16">
+        <div class="flex items-center justify-between mb-10">
+            <h2 class="text-3xl font-serif font-bold text-[#d3bc8e]">Latest Releases</h2>
+            <div class="h-px bg-[#d3bc8e]/30 flex-grow ml-6"></div>
+        </div>
+
+        <div id="packGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            </div>
+    </main>
+
+    <section id="faq" class="bg-[#1c253c]/50 py-16 border-y border-[#d3bc8e]/10">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-serif font-bold text-center text-[#d3bc8e] mb-10">Frequently Asked Questions</h2>
+            <div class="space-y-6">
+                <div class="bg-[#0f1423] p-6 rounded-lg border border-[#d3bc8e]/20">
+                    <h3 class="font-bold text-lg mb-2 text-white">Are these packs compatible with the latest Minecraft version?</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Yes! While the base versions are tailored for 1.8 PvP, we actively update our premium packs to the latest Java versions (e.g., 1.20+), complete with custom GUI and items.</p>
+                </div>
+                <div class="bg-[#0f1423] p-6 rounded-lg border border-[#d3bc8e]/20">
+                    <h3 class="font-bold text-lg mb-2 text-white">How do I download the Ad-Free or NSFW versions?</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Ad-free downloads, latest version updates, and exclusive NSFW packs are provided as perks for supporting the project on Patreon. Free versions remain fully playable via ad-supported links.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#0f1423] border-t border-[#d3bc8e]/20 py-12 text-center text-sm text-gray-500">
+        <div class="max-w-4xl mx-auto px-6 flex flex-col items-center">
+            <div class="font-serif font-bold text-xl text-[#d3bc8e]/50 mb-4">MISUMEH</div>
+            <p class="mb-6">Not affiliated with Mojang AB or HoYoverse. All character designs belong to their respective owners.</p>
+            <div class="flex gap-6">
+                <a href="https://patreon.com/misumeh" target="_blank" class="hover:text-[#d3bc8e] transition-colors">Support on Patreon</a>
+                <a href="#" class="hover:text-[#d3bc8e] transition-colors">YouTube Channel</a>
+                <a href="#" class="hover:text-[#d3bc8e] transition-colors">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="packModal" class="fixed inset-0 z-[100] hidden flex-col items-center justify-center p-4 sm:p-6">
+        <div id="modalBackdrop" class="absolute inset-0 bg-black/80 backdrop-blur-sm cursor-pointer transition-opacity"></div>
+        
+        <div class="relative bg-[#1c253c] border border-[#d3bc8e]/50 rounded-xl shadow-2xl w-full max-w-6xl max-h-[95vh] flex flex-col overflow-hidden modal-anim">
+            
+            <div class="flex justify-between items-center p-4 border-b border-[#d3bc8e]/20 lg:hidden bg-[#0f1423]">
+                <h2 id="modalTitleMobile" class="font-serif font-bold text-[#d3bc8e] text-xl">Title</h2>
+                <button id="closeModalBtnMobile" class="text-gray-400 hover:text-white"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></button>
+            </div>
+
+            <div class="flex flex-col lg:flex-row flex-1 overflow-y-auto lg:overflow-hidden">
+                
+                <div class="lg:w-3/5 bg-black border-r border-[#d3bc8e]/20 relative">
+                    <button id="closeModalBtnDesktop" class="absolute top-4 left-4 z-10 hidden lg:flex items-center justify-center w-10 h-10 bg-black/50 hover:bg-[#d3bc8e]/20 text-[#d3bc8e] rounded-full backdrop-blur-md transition-all border border-[#d3bc8e]/30">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+                    </button>
+                    <div id="modalVideoContainer" class="w-full aspect-video lg:h-full">
+                        </div>
+                </div>
+
+                <div class="lg:w-2/5 flex flex-col p-6 lg:p-8 overflow-y-auto custom-scrollbar bg-[#0f1423] lg:bg-transparent">
+                    <div class="hidden lg:block mb-6 border-b border-[#d3bc8e]/20 pb-4">
+                        <h2 id="modalTitle" class="text-4xl font-serif font-bold text-[#d3bc8e]">Name</h2>
+                        <span id="modalRes" class="inline-block mt-2 bg-[#d3bc8e]/10 border border-[#d3bc8e]/30 text-[#d3bc8e] text-xs px-2 py-1 rounded tracking-widest uppercase">Res</span>
+                    </div>
+
+                    <p id="modalDesc" class="text-gray-300 text-sm leading-relaxed mb-8">Description</p>
+
+                    <h3 class="font-serif text-lg text-white mb-4 flex items-center uppercase tracking-widest text-sm">
+                        <svg class="w-4 h-4 text-[#d3bc8e] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        Downloads
+                    </h3>
+                    
+                    <div id="modalButtons" class="flex flex-col gap-3">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
